@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.factory_header {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 30px auto;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  /*   background-color: #009879; */
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  border-bottom: 1px solid #f0eeee;
+}
+
+.content-table th,
+.content-table td {
+  padding: 20px;
+}
+.content-table td:last-of-type {
+  padding-right: 40px;
+}
+.content-table td:first-of-type {
+  padding-left: 40px;
+}
+
+.content-table tbody tr {
+  text-align: center;
+  font-size: 16px;
+  border-bottom: 1px solid #f0eeee;
+  color: darkslategray;
+  background-color: #fffdfd;
+}
+
+.content-table tbody tr:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.success {
+  color: #00c853;
+}
+.cancel {
+  color: #ff0e0e;
+}
+.pending {
+  color: #ffa000;
+}
+
+@media (max-width: 768px) {
+  .content-table {
+    padding: 20px;
+  }
+  .factory_header {
+    text-align: center;
+  }
+}

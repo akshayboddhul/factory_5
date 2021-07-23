@@ -72,6 +72,11 @@ body {
   .content-table {
     padding: 20px;
   }
+
+  thead tr th:first-child,
+  tbody tr td:last-child {
+    display: none;
+  }
   .factory_header {
     text-align: center;
   }

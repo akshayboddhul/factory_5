@@ -69,7 +69,14 @@ body {
 }
 
 @media (max-width: 768px) {
-  .content-table thead {
+  .content-table {
+    border-collapse: collapse;
+    margin: 30px 10px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+  }
+  /* .content-table thead {
     display: none;
   }
   .content-table,
@@ -99,5 +106,5 @@ body {
   }
   .factory_header {
     text-align: center;
-  }
+  } */
 }
